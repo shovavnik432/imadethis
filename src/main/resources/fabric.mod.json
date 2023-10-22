@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "tutorialmod",
-	"version": "${version}",
+	"version": "1.0",
 	"name": "tutorialmod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
@@ -16,9 +16,6 @@
 	"entrypoints": {
 		"main": [
 			"net.uri.tutorialmod.Tutorialmod"
-		],
-		"fabric-datagen": [
-			"net.uri.tutorialmod.TutorialmodDataGenerator"
 		],
 		"client": [
 			"net.uri.tutorialmod.Tutorialmodclient"
